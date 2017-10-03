@@ -10,7 +10,7 @@ public class Main {
 		double totalCostTax;
 		
 		totalCost = (2 * BURGER) + (5 * FRIES) + (5 * POP_CANS); 
-		System.out.println("The total cost before tax is $" + Math.round(totalCost * 100)/ 100.0) ;
+		System.out.println("The tvotal cost before tax is $" + Math.round(totalCost * 100)/ 100.0) ;
         tax = (totalCost * 1.13) - totalCost ; 
         System.out.println("The total tax is $" + Math.round(tax * 100 )/ 100.0);
         totalCostTax = tax + totalCost;
